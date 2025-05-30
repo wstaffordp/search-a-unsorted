@@ -2,8 +2,6 @@
 
 A fast, non-interpolated unsorted-list searching algorithm.
 
-## Reference
-
 `search_a_unsorted()` is the searching function that searches for an element in a list of elements that are unsorted.
 
 It accepts the following 5 arguments in left-to-right order.
@@ -18,11 +16,7 @@ When the return value is `1`, `position` contains the index of the found `needle
 
 When the return value is `0`, a new index value isn't assigned to `position`.
 
-## Classification
-
 It's in the same class as Linear Search.
-
-## Speed
 
 Search A Unsorted is close to a lossless optimization with faster speed than Linear Search in all distributed instances that were tested.
 
@@ -31,8 +25,6 @@ It doesn't rely on specifically-distributed `haystack` values for heuristic, inp
 It's the fastest unsorted-list search algorithm compared to unsorted-list searching algorithms that don't require input-based calculations across a wide range of data types and data, both randomized and uniform.
 
 I welcome submissions of algorithms in the same class that challenge the aforementioned claim.
-
-## Security
 
 `if (needle == haystack[high])` ensures `needle` isn't contained within `haystack` at the `high` bound before decrementing the `high` bound.
 
