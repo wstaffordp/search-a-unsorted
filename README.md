@@ -1,6 +1,6 @@
 # Search A Unsorted
 
-A fast, non-interpolated unsorted-list searching algorithm.
+It's a fast, non-interpolated unsorted-list searching algorithm.
 
 `search_a_unsorted()` is the searching function that searches for an element in a list of elements that are unsorted.
 
