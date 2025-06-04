@@ -22,7 +22,7 @@ Search A Unsorted is close to a lossless optimization with faster speed than Lin
 
 It doesn't rely on specifically-distributed `haystack` values for heuristic, input-based calculations and it's substantially-faster than the worst instances of Linear Search.
 
-It's the fastest unsorted-list search algorithm compared to unsorted-list searching algorithms that don't require input-based calculations across a wide range of data types and data, both randomized and uniform.
+It's the fastest unsorted-list searching algorithm compared to unsorted-list searching algorithms that don't require input-based calculations across a wide range of data types and data, both randomized and uniform.
 
 I welcome submissions of algorithms in the same class that challenge the aforementioned claim.
 
