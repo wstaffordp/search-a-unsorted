@@ -1,9 +1,9 @@
 #ifndef SEARCH_A_UNSORTED_H
 #define SEARCH_A_UNSORTED_H
 
-#include <stdint.h>
+#include <stddef.h>
 
-unsigned char search_a_unsorted(uintptr_t low, uintptr_t high, int *haystack,
-                                int needle, uintptr_t *position);
+unsigned char search_a_unsorted(size_t low, size_t high, int *haystack,
+                                int needle, size_t *position);
 
 #endif

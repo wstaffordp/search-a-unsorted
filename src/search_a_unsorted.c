@@ -1,7 +1,7 @@
 #include "search_a_unsorted.h"
 
-unsigned char search_a_unsorted(uintptr_t low, uintptr_t high, int *haystack,
-                                int needle, uintptr_t *position) {
+unsigned char search_a_unsorted(size_t low, size_t high, int *haystack,
+                                int needle, size_t *position) {
   if (needle == haystack[high]) {
     *position = high;
     return 1;
